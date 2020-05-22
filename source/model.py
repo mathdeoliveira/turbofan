@@ -47,7 +47,6 @@ df_rul.rename(columns = {0: 'RUL',
                         'index' : 'motorid'} 
                         , inplace = True)
 df_rul['motorid'] += 1
-
 df_train.drop([26,27], axis = 1, inplace = True)
 
 # JUNTANDO OS DOIS DATAFRAMES
